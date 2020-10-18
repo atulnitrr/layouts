@@ -70,9 +70,8 @@ header {
   margin: 0 auto 30px;
 }
 
-.article {
+article {
   position: relative;
-  background-color: red;
 }
 
 .article-img {
