@@ -1,0 +1,25 @@
+.listing {
+  list-style: none;
+  margin: 2em;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.listing li {
+  /* background-color: rosybrown; */
+  border: 1px solid #ff2066;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.listing .body {
+  padding: 10px;
+}
+
+.listing .cta {
+  margin-top: auto;
+  border-top: 1px solid #ff2066;
+  padding: 10px;
+  text-align: center;
+}
